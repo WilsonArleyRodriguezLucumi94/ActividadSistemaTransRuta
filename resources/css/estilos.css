@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background-color: #090d16;
+    color: #f1f5f9;
+    padding: 36px 20px;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #111827;
+    padding: 28px 32px;
+    border-radius: 12px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+    border: 1px solid #1f2937;
+}
+
+.encabezado-vista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #1f2937;
+}
+
+.encabezado-vista h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f8fafc;
+}
+
+.total-registros {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #93c5fd;
+    background-color: rgba(37, 99, 235, 0.18);
+    padding: 6px 12px;
+    border-radius: 999px;
+}
+
+.tabla-vehiculos {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.tabla-vehiculos thead {
+    background-color: #1e3a8a;
+    color: #ffffff;
+}
+
+.tabla-vehiculos th {
+    text-align: left;
+    padding: 13px 16px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.tabla-vehiculos td {
+    padding: 13px 16px;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #1f2937;
+    color: #e2e8f0;
+}
+
+.tabla-vehiculos tbody tr:nth-child(even) {
+    background-color: #161f30;
+}
+
+.tabla-vehiculos tbody tr:hover {
+    background-color: #1e293b;
+    transition: background-color 0.15s ease;
+}
+
+.placa {
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.badge-disponible {
+    background-color: rgba(34, 197, 94, 0.18);
+    color: #86efac;
+}
+
+.badge-mantenimiento {
+    background-color: rgba(245, 158, 11, 0.2);
+    color: #fcd34d;
+}
+
+.sin-datos {
+    text-align: center;
+    padding: 24px;
+    color: #94a3b8;
+}
